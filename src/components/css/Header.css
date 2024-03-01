@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("../../fonts/Lato-Black.ttf");
+}
+
+.layout-header {
+    font-family: "CustomFont";
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #282f44;
+    
+  
+    z-index: 1;
+
+}
+
+.layout-header>nav {
+    display: grid;
+
+   grid-template-columns: 0.8fr 12fr;
+   font-size: 25px;
+    padding: 13.5px 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    z-index: 1
+}
+
+.sideBar{
+    display: grid;
+    grid-template-columns: 1.2fr 7fr 2fr 1.8fr 0.8fr;
+}
+
+.navLogo {
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    background: -webkit-linear-gradient(#ECECEC, #E6AF2E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-self: left;
+}
+
+.navLearning {
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+    justify-self: left;
+    height: 35px;
+    border-bottom: solid #E6AF2E;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navLearning:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.navAvoutus {
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+
+    height: 35px;
+    justify-self: right;
+    border-bottom: solid #E6AF2E;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navAvoutus:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.navMembership {
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+    justify-self: right;
+    height: 35px;
+    margin-right: 5px;
+    border-bottom: solid #E6AF2E;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navMembership:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+.navSearchbar{
+    justify-self: center;
+    justify-content: center;
+    
+}
+.searchplace{
+    height: 20px;
+    width: 25vw;
+    margin-left: 10px;
+}
+.navSearchbar>img{
+    vertical-align: middle;
+}
+
+.navAuth{
+    justify-self: center;
+    height: 40px;
+}
+
+.navAuth img{
+    background: -webkit-linear-gradient(#ECECEC, #E6AF2E);
+    height: 38px;
+    width: 38px;
+    border: solid #E6AF2E 1px;
+    border-radius: 100%;
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+}
+
+a:visited {
+    text-decoration: none;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+}
+
+a:hover {
+    text-decoration: none;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+}
+
+a:active {
+    text-decoration: none;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+}

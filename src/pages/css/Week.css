@@ -1,0 +1,26 @@
+.week-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.week-container>div{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-basis:20%;
+    border: solid black 1px;
+    border: solid #E6AF2E 4px;
+    border-radius: 25px;
+    margin-left: 100px;
+}
+.head-week{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E6AF2E;
+    border-radius: 20px 20px 0 0;
+}
+.week-grad-less{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

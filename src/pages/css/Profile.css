@@ -1,0 +1,40 @@
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 74.9vh;
+}
+.profile-img>img{
+    height: 200px;
+}
+.profile-img{
+    width: 200px;
+    height:200px;
+    min-width: 200px;
+    
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height:200px;
+    min-width: 200px;
+
+}
+.profile-username{
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.profile-functional{
+    
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-bottom: 12px;
+    justify-content: space-around;
+}

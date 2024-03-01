@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("../../fonts/Lato-Black.ttf");
+}
+
+.aboutus-container{
+    
+    font-family: "CustomFont";
+    padding-top: 100px;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 90.2vh;
+}
+
+.aboutusHeader{
+
+    text-align: center;
+    font-size: 2vw;
+    
+    filter: drop-shadow(15px 15px 11px gray);
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    background: -webkit-linear-gradient(#ECECEC, #282f44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.workshedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.workshedule>div{
+    width: 400px;
+    height: 170px;
+    border: solid #E6AF2E 4px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2vw;
+}
+.hotline{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#000000, #282f44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hotlinenumbers{
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4vw;
+}

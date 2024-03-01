@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("../../fonts/Lato-Black.ttf");
+}
+
+.home-container{
+    font-family: "CustomFont";
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 80.4vh;
+}
+
+.preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagePreview{
+    width: 200px;
+    filter: drop-shadow(15px 5px 5px gray);
+}
+
+.textPreview{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2vw;
+    filter: drop-shadow(15px 15px 11px gray);
+
+}
+.greating{
+    font-size: 2.5vw;
+}
+
+.buttonPreview{
+    width: 300px;
+    height: 60px;
+
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+    font-size: 2vw;
+
+    border-radius: 10px;
+    background-color: #282f44f1;
+}
+
+.content{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contentLearning, .contentAboutus, .contentMembership{
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 7px 7px 30px 0;
+}
+
+.contentLearning{
+    border: solid #282f44f1 3px;
+}
+
+.contentAboutus{
+    border: solid #e6af2ee8 3px;
+}
+
+.contentMembership{
+    border: solid #282f44f1 3px;
+}
+.leftMarker{
+    height: 200px;
+    width: 100px;
+    background-color: #282f44f1;
+}
+
+.rightMarker{
+    height: 200px;
+    width: 100px;
+    background-color: #e6af2ee8;
+}
+
+.buttonContent{
+    width: 250px;
+    height: 40px;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    color: #ECECEC;
+    font-size: 1.5vw;
+
+    border-radius: 10px;
+    background-color: #282f44f1;
+
+    align-self: center;
+    justify-self: end;
+}
+
+.contentText{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    gap: 35px;
+    font-size: 1.5vw;
+}
